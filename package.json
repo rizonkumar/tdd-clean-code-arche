@@ -1,0 +1,30 @@
+{
+  "name": "typescript-bootcamp",
+  "version": "1.0.0",
+  "description": "TypeScript Bootcamp - Collection of projects and exercises",
+  "workspaces": [
+    "last-seen-time",
+    "stack-implementation"
+  ],
+  "scripts": {
+    "install:all": "npm install",
+    "build": "npm run build --workspaces",
+    "build:stack": "npm run build --workspace=stack-implementation",
+    "build:last-seen": "npm run build --workspace=last-seen-time",
+    "test": "npm run test --workspaces",
+    "test:stack": "npm run test --workspace=stack-implementation",
+    "test:last-seen": "npm run test --workspace=last-seen-time",
+    "clean": "npm run clean --workspaces"
+  },
+  "keywords": ["typescript", "bootcamp", "projects"],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.3.0",
+    "jest": "^30.1.3",
+    "ts-jest": "^29.4.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.2"
+  }
+}
