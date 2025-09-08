@@ -1,0 +1,10 @@
+export { CoffeeMachine } from "./CoffeeMachine";
+export { MoneyCalculator } from "./MoneyCalculator";
+export { coffeeConfigurations } from "./CoffeeConfiguration";
+export { coins, COFFEE_PRICE } from "./Coin";
+export { defaultDispensers } from "./Dispenser";
+export type { CoffeeConfiguration } from "./CoffeeConfiguration";
+export type { Coin } from "./Coin";
+export type { Dispenser, DispenserCollection } from "./Dispenser";
+export type { MachineStatus, OperationResult } from "./CoffeeMachine";
+export type { MoneyResult } from "./MoneyCalculator";
