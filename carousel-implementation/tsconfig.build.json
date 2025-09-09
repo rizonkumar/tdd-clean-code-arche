@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "ES2020",
+    "moduleResolution": "node",
+    "lib": ["ES2020", "DOM"],
+    "outDir": "./dist",
+    "rootDir": "./",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "declaration": true,
+    "declarationMap": true,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "types": ["node", "jest"],
+    "jsx": "react-jsx"
+  },
+  "include": ["src/Carousel.tsx", "src/index.ts"],
+  "exclude": ["node_modules", "dist", "src/App.tsx", "src/index.tsx", "src/App.css", "src/index.css"]
+}
